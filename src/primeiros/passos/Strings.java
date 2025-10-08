@@ -1,6 +1,6 @@
 package primeiros.passos;
 
-public class StringsEDatas {
+public class Strings {
     public static void main(String[] args) {
 
         String nomeDigitado = "Maki Zenin";
