@@ -1,14 +1,19 @@
+import Animals.Dog;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World");
 
-        byte variavelByte = 12;
-        short variavelShort = 300;
-        char variavelChar = 60000;
-        int variavelInt = 600000;
-        long variavelLong = 60000000L;
+        Dog dog1 = new Dog();
 
-        System.out.println(variavelByte);
-        System.out.println(variavelLong);
+        dog1.name = "Puppy";
+        dog1.color = "brown";
+        dog1.height = 25;
+        dog1.weight = 5.5f;
+
+        dog1.bark();
+        System.out.println("The dog grabbed the " + dog1.toGrab());
+
+        System.out.println("The dog is "+ dog1.interact("care"));
+
     }
 }
