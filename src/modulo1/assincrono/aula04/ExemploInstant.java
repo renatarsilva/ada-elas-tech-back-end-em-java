@@ -1,4 +1,4 @@
-package modulo1.aula04;
+package modulo1.assincrono.aula04;
 
 import java.time.Duration;
 import java.time.Instant;

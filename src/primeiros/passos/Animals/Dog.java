@@ -1,4 +1,4 @@
-package Animals;
+package primeiros.passos.Animals;
 
 public class Dog {
     public String name;

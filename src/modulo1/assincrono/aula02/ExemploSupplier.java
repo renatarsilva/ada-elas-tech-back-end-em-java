@@ -1,4 +1,4 @@
-package modulo1.aula02;
+package modulo1.assincrono.aula02;
 
 import java.util.function.Supplier;
 
@@ -9,3 +9,4 @@ public class ExemploSupplier {
         System.out.println(fornecedor.get());
     }
 }
+// Nao precisa de argumentos para fornecer valores

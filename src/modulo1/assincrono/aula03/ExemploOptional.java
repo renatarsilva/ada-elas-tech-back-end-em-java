@@ -1,6 +1,5 @@
-package modulo1.aula03;
+package modulo1.assincrono.aula03;
 
-import javax.swing.text.html.Option;
 import java.util.Optional;
 
 public class ExemploOptional {

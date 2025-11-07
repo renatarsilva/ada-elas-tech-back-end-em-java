@@ -1,4 +1,4 @@
-import Animals.Dog;
+import primeiros.passos.Animals.Dog;
 
 public class Main {
     public static void main(String[] args) {

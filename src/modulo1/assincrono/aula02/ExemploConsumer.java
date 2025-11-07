@@ -1,4 +1,4 @@
-package modulo1.aula02;
+package modulo1.assincrono.aula02;
 
 import java.util.function.Consumer;
 
@@ -8,6 +8,6 @@ public class ExemploConsumer {
                 nome -> System.out.println(nome);
 
         imprimirNome.accept("Maki");
-
     }
 }
+//recebe um valor, faz algo, não devolve nada.
