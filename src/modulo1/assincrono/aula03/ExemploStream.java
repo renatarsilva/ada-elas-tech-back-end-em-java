@@ -2,6 +2,7 @@ package modulo1.assincrono.aula03;
 import java.util.List;
 import java.util.stream.Collectors;
 
+// Maneira moderna de manipular colecao e processar colecoes de dados, de forma funcional
 public class ExemploStream {
     public static void main(String[] args) {
         List<String> nomes = List.of("Maki", "Hinata", "Naruto", "Saski", "Misaki");
@@ -19,7 +20,6 @@ public class ExemploStream {
                 .distinct()
                 .collect(Collectors.toList());
         System.out.println(lista);
-
     }
 }
 
